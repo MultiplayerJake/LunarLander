@@ -1,6 +1,6 @@
 ## I built a game called [Lunar Lander](https://en.wikipedia.org/wiki/Lunar_Lander_(video_game_genre))
 
-Game features:
+### Game features:
 - Limited fuel.
 - Stats at the end of each game cycle.
 - Randomly generated terrain.

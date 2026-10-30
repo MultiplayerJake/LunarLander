@@ -76,16 +76,14 @@ LunarLander/
 ├── LICENSE
 ├── README.md
 ├── SpaceLanders/
-│   ├── main.py          # Game entry point (run this)
-│   └── assets/
-│       ├── lander.png
-│       ├── main_engine.png
-│       ├── rcs_left.png
-│       ├── rcs_right.png
-│       ├── rocket.png
-│       ├── flat_pointer.png
-│       └── boldpixels.boldpixels.ttf
-└── Tests/               # pytest suite (see below)
+    ├── main.py          # Game entry point (run this)
+    └── assets/
+        ├── lander.png
+        ├── main_engine.png
+        ├── rcs_left.png
+        ├── rcs_right.png
+        ├── rocket.png
+        └── flat_pointer.png
 ```
 
 ## Running the tests

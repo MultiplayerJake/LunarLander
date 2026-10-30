@@ -128,9 +128,7 @@ def results():
     landing_velocity_text = FONT.render("LANDING VELOCITY: %.2f m/s" % (((player_velocity[0] ** 2 + player_velocity[1] ** 2) ** 0.5) / 10), False,"white")
     landing_roll_text = FONT.render("LANDING ROLL: %.2f°" % player_roll, False, "white")
 
-    landing_distance = ((player_position[0] - flatpoint * PLAYERSIZE[0]) / 10)
-    if int(landing_distance) < 0:
-        landing_distance = landing_distance * -1
+    landing_distance = abs((player_position[0] - flatpoint * PLAYERSIZE[0]) / 10)
     landing_distance_text = FONT.render("OFFSET FROM TARGET: %.2f m" % landing_distance, False, "white")
 
 
